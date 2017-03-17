@@ -18,6 +18,9 @@ app.get('/article-three',function(req,res){
     res.send('article-three requested and will be served here');
     
 });
+app.get('/jves', function (req, res) {
+  res.sendFile('hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii');
+});
 
 
 
