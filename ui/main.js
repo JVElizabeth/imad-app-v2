@@ -1,6 +1,10 @@
 console.log('Loaded!');
 
 var img=document.getElementById("madi");
+function moveRight(){
+    marginLeft=merginLeft+10;
+    img.style.marginLeft+'px';
+}
 img.onclick=function(){
-img.style.marginLeft='100px';
+img.interval=setinterval(moveRight,100);
 };
