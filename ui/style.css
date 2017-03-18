@@ -10,11 +10,11 @@ body {
 }
 
 .text-big {
-    font-size: 200%;
+    font-size: 250%;
 }
 
 .bold {
-    font-weight: lighter;
+    font-weight: 300;
 }
 
 .img-medium {
