@@ -1,7 +1,8 @@
 console.log('Loaded!');
 var button=document.getElementById("counter");
-
+var counter=0;
 button.onclick=function(){
+    counter=counter+1;
   var request=new XMLHttpRequest();
    request.onreadystatechanged=function(){
     if(request.readystate==XMLHttpRequest.DONE){
